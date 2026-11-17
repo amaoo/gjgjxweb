@@ -1,28 +1,25 @@
 # 搞机工具箱 Web - 网页版 Android 玩机工具
+<br><p align="center" ><a href="https://trendshift.io/repositories/343132?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-343132" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/343132/daily?language=HTML" alt="CzJam%2Fgjgjxweb | Trendshift" width="250" height="55"/></a></p><br>
 
-## <p align="center"><a href="https://www.bilibili.com/video/BV1TB456ZEoo">使用教程</a>&emsp;&emsp;<a href="https://czjam.github.io/gjgjxweb/">在线体验</a>   </p>
 《搞机工具箱》是一款ADB图形化工具。
 
 本项目移植于个人开发的 [《搞机工具箱》PC版](https://www.bilibili.com/video/BV1QvHhzLELb) 。借助 [Tango](https://github.com/yume-chan/ya-webadb) 实现了 WebADB，并通过 [xterm.js](https://github.com/xtermjs/xterm.js) 打通 Android 原生 Shell 交互式终端，可运行在基于Chromium内核的浏览器中，实现免下载、免安装的跨平台使用体验。
-
- [作者 @晨钟酱Official](https://space.bilibili.com/251013709)
  
- [官网: jamcz.com](https://jamcz.com)
- 
+### <p align="center" ><a href="https://www.bilibili.com/video/BV1TB456ZEoo">使用教程</a>&emsp;&emsp;<a href="https://czjam.github.io/gjgjxweb/">在线体验</a></p>
 
 ## 功能
 
 | 页面 | 主要功能 |
 | --- | --- |
 | 主页 | 设备与系统信息、CPU 频率、主板 ID 隐藏、重启、关机、重启至 Bootloader / Fastbootd / Recovery / EDL |
-| 软件管理 | 包名与前台活动读取、启用/禁用、运行、强行停止、卸载与保留数据卸载、清除数据、软件信息、恢复系统软件、卸载锁定、操作记录、Google 套件批量管理 |
+| 软件管理 | 包名与前台活动读取、启用/禁用、运行、强行停止、卸载与保留数据卸载、清除数据、软件信息、恢复系统软件、卸载锁定、操作记录、Google 套件批量管理、本机隐私模块管理（厂商遥测 / 广告 / 运营商组件批量禁用卸载） |
 | 安装与文件传输 | APK 安装、拆分 APK 安装、推送文件、提取安装包 |
 | 显示控制 | 分辨率、显示密度（DPI / dp）、按键模拟、截图 |
 | 系统界面 | 状态栏图标隐藏、时钟与快捷设置、沉浸模式、Wi-Fi 网络检测相关设置 |
 | 电池管理 | 电池信息、电池参数模拟与恢复、定时统计、可选功率记录、CSV 导出 |
 | 无极调节 | 字体大小倍数、窗口/过渡/程序动画倍率、自动锁屏时间 |
 | 控机脚本 | 脚本编辑与导入导出、命令插入、文件关联、部分 BAT 语法解释执行 |
-| ADB 终端 | Android Shell 交互会话、ANSI 显示、命令历史、补全、复制、清屏与中断 |
+| ADB 终端 | Android Shell 交互会话、ANSI 显示、命令历史、补全、复制、清屏与中断、常用命令快捷面板（系统信息 / 好玩彩蛋 / 性能优化 / 隐私权限 / 网络 / 自动化输入） |
 | 软件设置 | 默认启动页、主题配色、界面缩放、CPU 更新间隔、文件接收路径、安装与截图选项、设置导入导出 |
 
 当前界面提供 **USB 有线连接**。功能是否生效取决于设备的 Android 版本、ROM 和 ADB Shell 权限。进入 Fastboot 的按钮仅发送重启命令，本工具暂不提供 Fastboot 刷机功能。
